@@ -1,0 +1,40 @@
+.postimg {
+  height: 344px;
+  overflow: hidden;
+  margin-top: 14px;
+}
+.postimg img {
+  width: 100%;
+}
+.blog-post-content {
+  margin: 2rem auto;
+  padding: 20px;
+}
+.blog-post-content h2 {
+  text-align: center;
+  margin: 20px;
+}
+.blog-post-content p {
+  font-size: 20px;
+  text-align: justify;
+} 
+.row-for-article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.blog-post-meta{
+   display: flex;
+   justify-content: space-between;
+}
+.author-info{
+   margin: 12px 0;
+}
+.author-info div{
+   padding: 4px 0;
+   font-family: var(--font2);
+}
+.social-media a i{
+   font-size: 20px;
+   padding: 10px ;
+}

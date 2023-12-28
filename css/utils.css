@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway&family=Roboto:wght@300;400&display=swap");
+:root {
+  --main-bg-color: #2596be;
+  --main-bg-color-light: #92cbdf;
+  --main-bg-color-light2: #f6fdff;
+  --font1: "Raleway", sans-serif;
+  --font2: "Roboto", sans-serif;
+  --font3: "Lobster", sans-serif;
+}
+.font1 {
+  font-family: Raleway ", sans-serif; 
+ 
+}
+.font2{
+   font-family:Roboto", sans-serif;
+}
+.max-width-1 {
+  width: 80vw;
+}
+.max-width-2 {
+  width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.formInput {
+  width: 12rem;
+  padding: 0.6rem 0.15rem;
+  font-family: var(--font1);
+  border-radius: 3px;
+  margin: 0.2rem 0;
+}
+.btn {
+  width: 5rem;
+  padding: 0.7rem 0.25rem;
+  font-family: var(--font1);
+  border-radius: 3px;
+  position: relative;
+  border: 1px rgb(40, 40, 40);
+  background-color: var(--main-bg-color);
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--main-bg-color-light);
+  transition: 1.5s;
+}

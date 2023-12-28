@@ -1,0 +1,61 @@
+@media screen and (max-width:1150px) {
+      .navigation{
+         flex-direction: column;
+         gap: 2px;
+         margin-bottom: 6rem;
+      }
+      .nav-left{
+         flex-direction: column;
+         text-align: center;
+
+      }
+      .nav-left ul {
+         margin: .60rem 0 ;
+       }
+       .content{
+         margin: 14px auto;
+       }
+       .content::after {
+         width: 82%;
+       } 
+       .contentLeft{
+         width: 95%;
+         margin: 0 auto;
+       }
+     
+       .footer p{
+         font-size: 15px;
+         padding: 5px;
+         text-align: center;
+       }
+       /* -----------------home Article start----------------------- */
+       .homeArticles {
+         width: 74%;
+         text-align: center;
+       } 
+       .homeArticles h2{
+         margin-top: 40px;
+       }
+       .homeArticle img {
+         width: 250px;
+       }
+       .year-box{
+         position: absolute;
+         top:10;
+         width: 243px;
+       }
+       .postimg{
+         height: 100px;
+       } 
+       #responsive-handle{
+          width: 10rem;
+          height: 1rem;
+       }
+       /* -------------------blogpoat.html------------ */
+       .blog-post-meta{
+         flex-direction: column-reverse;
+         align-items: center;
+       }
+      
+   }
+   

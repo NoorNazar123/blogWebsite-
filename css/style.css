@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-top {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-bg-color);
+  font-family: var(--font2);
+}
+.navigation {
+  /* padding-top: 1.5rem; */
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font1);
+}
+.nav-left {
+  font-size: 1.3rem;
+  display: flex;
+}
+.nav-left h1{
+  font-family: var(--font3);
+  cursor: pointer;
+}
+.nav-left h1 a:hover {
+  color: var(--main-bg-color-light);
+  transition: 1.5s;
+}
+.nav-left h1 a{
+  text-decoration: none;
+  color: var(--main-bg-color);
+}
+.nav-left ul li {
+  list-style: none;
+  font-family: var(--font1);
+  margin: 0 1rem;
+  position: relative;
+}
+.nav-left ul li::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: var(--main-bg-color);
+  transition: 0.5s;
+}
+.nav-left ul li:hover:after {
+  width: 100%;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 5rem;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
+.nav-right {
+  font-size: 1.3rem;
+}
+
+/* ------------------content bow start------------------------- */
+.content {
+  /* background-color: blue; */
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  margin: 4rem auto;
+  position: relative;
+ 
+}
+.content::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(/banner2.jpg);
+  background-size: cover;
+  opacity: 0.1;
+  border-radius: 20px;
+}
+.contentLeft {
+  width: 60%;
+  font-family: var(--font2);
+  text-align: justify;
+  z-index: 999;
+  margin-left: 20px;
+}
+.contentLeft h2 {
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-style: initial;
+}
+.contentRight {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  /* transform: rotate(45deg); */
+  background-image: url(https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 1.5s ease;
+  z-index: 999;
+}
+.content:hover .contentRight {
+  transform: rotate(-360deg) scale(1.2);
+}
+/* -----------post-containe----------------*/
+
+/* 
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid var(--main-bg-color-light2);
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--main-bg-color-light2);
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the blog posts */
+/* article {
+  background-color: var(--main-bg-color-light2);
+  border: 1px solid var(--main-bg-color-light2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+p {
+  color: #777;
+  margin: 5px 0;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+}  */
+
+/* -----------------home Article start----------------------- */
+.homeArticles {
+  margin: 1rem auto;
+  background-color:var(--main-bg-color-light2);
+  padding: 18px;
+  font-family: var(--font1);
+  border-radius: 20px;
+  position: relative;
+}
+.year-box{
+  position: absolute;
+  right:0;
+  top: 22px;
+  width: 243px;
+  display: flex;
+  gap: 12px;
+}
+.homeArticle {
+  margin: 2rem;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.homeArticles h2{
+  margin:10px 15px;
+}
+.homeArticle img {
+  width: 300px;
+}
+.homeArticleRight {
+  align-self: center;
+  padding: 20px;
+}
+.homeArticleRight a{
+  text-decoration: none;
+  color: var(--main-bg-color);
+ }
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 

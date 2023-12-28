@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/contect.css" />
+    <link rel="stylesheet" href="css/mobile.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      src="https://kit.fontawesome.com/01bfefd4d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="nav-top">
+      <h1>INFORMATICS BLOGS</h1>
+    </div>
+    <div class="navigation max-width-1 m-auto">
+      <div class="nav-left">
+        <h1><a href="/index.html">InFoBLoGs</a></h1>
+        <ul>
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/blogpost.html">ABOUT</a></li>
+          <li><a href="/content.html">CONTECT US</a></li>
+        </ul>
+      </div>
+      <div class="nav-right" method="get">
+        <form action="/search.html">
+          <input
+          id="responsive-handle"
+            class="formInput"
+            type="text"
+            name="query"
+            placeholder="Article Search"
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="max-width-1 m-auto"><hr /></div>
+    <!-- contect us  start -->
+
+    <div class="container max-width-1 m-auto">
+      <div class="contact-right">
+        <h1>Feel free to contect us</h1>
+        <form name="submit-to-google-sheet">
+          <input  
+            type="text"
+            name="Name"
+            placeholder="Enter your Name"
+            required
+          />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Enter your Email"
+            required
+          />
+          <textarea
+            name="Message"
+            id="message"
+            cols="10"
+            rows="6"
+            placeholder="Your message"
+          ></textarea>
+          <input type="submit" class="btn btn2" />
+          <input type="reset" class="btn btn2" /><br />
+          <span id="msg"></span>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p style="color: #fff;" class="font2">Welcome to my blog, where you'll find valuable insights, engaging content,
+         and a community of like-minded individuals.</p>
+    </div>
+  </body>
+</html>
